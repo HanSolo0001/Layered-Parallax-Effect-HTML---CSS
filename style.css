@@ -20,6 +20,13 @@
     position: relative;
 }
 
+.site-header-mask {
+    position: absolute;
+    inset: 0;
+    -webkit-mask: url("https://assets.codepen.io/308367/mountain-mask.svg");
+    mask: url("https://assets.codepen.io/308367/mountain-mask.svg");
+}
+
 .site-title {
     color: white;
     text-align: center;
